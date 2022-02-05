@@ -37,6 +37,9 @@ html, body{
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
 }
+.nav__logo h1{
+
+}
 .nav__menu{
     display: flex;
 }
@@ -54,21 +57,28 @@ html, body{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 13px;
-    border-bottom: 4px solid transparent;
+
     letter-spacing: 0.1875rem;
-    padding: 28px 18px 22px;
+    padding: 0 18px 0;
     transition: 0.5s;
 }
 .nav__menu ul li:hover{
-    border-color: #08A6E4;
+
 }
 .nav__menu ul li a{
     text-decoration: none;
     color: #A5A5A5;
+    width: 105px ;
+    height: 67px;
+    border-bottom: 4px solid transparent;
     transition: 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav__menu ul li a:hover{
     color: black;
+    border-color: #08A6E4;
 }
 
 .open__section{
@@ -120,4 +130,79 @@ html, body{
 }
 .open__background img{
     width: 100%;
+}
+
+.popular_section{
+    display: flex;
+    width: 100%;
+}
+.popular_section .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.popular__header{
+    display: flex;
+    flex-direction: column;
+}
+.popular__header_1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    /*margin-bottom: 101px;*/
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+}
+.popular__box_all{
+    display: flex;
+    justify-content: center;
+
+}
+.popular__circle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 116px;
+    height: 140px;
+
+}
+.popular__first__box{
+    display: flex;
+    padding: 100px;
+
+}
+.popular__secound__box{
+    display: flex;
+    padding: 100px;
+
+}
+.popular__third__box{
+    display: flex;
+    padding: 100px;
+
+}
+.popular__box_all h4{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 19.11px;
+    margin-top: 14.18px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+.popular__box_all p1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    color: #A5A5A5;
+    display: flex;
+}
+
+.popular__box_all br{
+    display: flex;
+    justify-content: center;
+}
+.popular__img{
+    display: flex;
+    width: 44px;
+    height: 52px;
+    left: 40px;
 }
