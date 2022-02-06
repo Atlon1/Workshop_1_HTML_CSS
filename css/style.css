@@ -134,7 +134,9 @@ html, body{
 
 .popular_section{
     display: flex;
+    max-width: 800px;
     width: 100%;
+    margin: 100px auto 120px;
 }
 .popular_section .wrapper{
     display: flex;
@@ -147,37 +149,34 @@ html, body{
 .popular__header_1{
     display: flex;
     justify-content: center;
-    margin-top: 100px;
-    /*margin-bottom: 101px;*/
     font-family: Raleway, sans-serif;
     font-size: 36px;
 }
 .popular__box_all{
     display: flex;
     justify-content: center;
-
+    margin-top: 100px;
 }
 .popular__circle{
-    display: flex;
+   display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 116px;
-    height: 140px;
-
+    justify-content: center;
+    width: 100%;
+    position: relative;
 }
 .popular__first__box{
     display: flex;
-    padding: 100px;
+    padding-right: 185px;
 
 }
 .popular__secound__box{
     display: flex;
-    padding: 100px;
-
+    padding-right: 183px;
 }
 .popular__third__box{
     display: flex;
-    padding: 100px;
+    width: 163px;
+    height: 168px;
 
 }
 .popular__box_all h4{
@@ -186,14 +185,14 @@ html, body{
     margin-bottom: 19.11px;
     margin-top: 14.18px;
     letter-spacing: 2px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
-.popular__box_all p1{
+.popular__box_all p{
     font-family: 'Raleway', sans-serif;
     font-size: 17px;
     color: #A5A5A5;
     display: flex;
+    text-align: center;
 }
 
 .popular__box_all br{
@@ -201,8 +200,56 @@ html, body{
     justify-content: center;
 }
 .popular__img{
-    display: flex;
+    position: absolute;
     width: 44px;
     height: 52px;
-    left: 40px;
+
 }
+.popular__first__box .popular__circle .circle {
+    border-radius: 50%;
+    position: relative;
+    width: 63px;
+    height: 63px;
+    background-color: #fb3b64;
+    top: 0;
+    left: 20px;
+}
+.popular__first__box .popular__img{
+    top: 15%;
+    left: 50%;
+}
+.popular__secound__box .popular__circle .circle {
+    border-radius: 50%;
+    position: relative;
+    width: 63px;
+    height: 63px;
+    background-color: #08A6E4;
+    top: 0;
+    left: 25px;
+}
+.popular__secound__box .popular__img{
+    top: 15%;
+    left: 40%;
+    width: 66px;
+    height: 36.5px;
+}
+.popular__third__box .popular__circle .circle {
+    border-radius: 50%;
+    position: relative;
+    width: 63px;
+    height: 63px;
+    background-color: #55DFB4;
+    top: 0;
+    left: 45px;
+}
+.popular__third__box .popular__img{
+    top: 10%;
+    left: 50%;
+    width: 52px;
+    height: 48px;
+}
+.popular__third__box .popular__circle p{
+    display: flex;
+    justify-content: center;
+}
+
