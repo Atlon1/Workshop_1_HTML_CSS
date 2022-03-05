@@ -1,0 +1,169 @@
+@import "vareables";
+
+
+.benefits__section {
+  display: flex;
+}
+
+.benefits__section .wrapper {
+  max-width: 1626px;
+  background-color: #F7F7F7;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.benefits__content {
+  display: flex;
+  width: 1124px;
+  height: 370px;
+  margin-top: 105px;
+  background-color: white;
+  position: relative;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
+}
+
+.benefits__text {
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  height: 188px;
+  border-bottom: 4px solid;
+  border-color: $color-redish;
+  margin-top: 91px;
+  margin-left: 36px;
+}
+
+.benefits__Header {
+  display: flex;
+  font-family: $font-releway;
+  font-size: 36px;
+  font-weight: 300;
+
+}
+
+.benefits__string {
+  margin-top: 30px;
+  font-family: $font-open-sans;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.benefits__img__macbook {
+  width: 386px;
+  height: 219px;
+  margin-top: 113px;
+  margin-left: 225px;
+  z-index: 1;
+}
+
+.benefits__content .romb {
+  width: 180px;
+  height: 180px;
+  background-color: $color-redish;
+  border-radius: 35px;
+  transform: rotate(45deg);
+  position: absolute;
+  right: 45px;
+  top: 90px;
+}
+
+.benefits__content:nth-child(2) {
+  margin-top: 37px;
+}
+
+.benefits__img__iphone {
+  width: 426px;
+  height: 328px;
+  margin-top: 29px;
+  margin-left: 70px;
+  z-index: 1;
+}
+
+.benefits__text1 {
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  height: 230px;
+  border-bottom: 4px solid;
+  border-color: $color-primary;
+  margin-top: 69px;
+  margin-left: 192px;
+}
+
+.benefits__Header1 {
+  display: flex;
+  font-family: $font-releway;
+  font-size: 36px;
+  font-weight: 300;
+  width: 246px;
+}
+
+.benefits__string1 {
+  margin-top: 30px;
+  font-family: $font-open-sans;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.benefits__circle {
+  width: 320px;
+  height: 320px;
+  background-color: $color-primary;
+  border-radius: 50%;
+  position: absolute;
+  left: 70px;
+  top: 12px;
+}
+
+.benefits__main__content {
+  display: flex;
+  margin-top: 37.7px;
+  margin-bottom: 105.33px;
+}
+
+.benefits__content_3 {
+  display: flex;
+  width: 623px;
+  height: 370px;
+  background-color: white;
+  border: 1px solid #E8E9ED;
+}
+
+.benefits__content_4 {
+  display: flex;
+  width: 440px;
+  height: 370px;
+  background-color: $color-light-green;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
+  margin-left: 61px;
+}
+
+.benefits__Header3 {
+  display: flex;
+  font-family: $font-releway;
+  font-size: 36px;
+  font-weight: 300;
+  width: 348px;
+}
+
+.benefits__text3 {
+  display: flex;
+  flex-direction: column;
+  width: 554px;
+  height: 230px;
+  border-bottom: 4px solid;
+  border-color: $color-light-green;
+  margin-top: 69.33px;
+  margin-left: 35px;
+}
+
+.benefits__img__trumpet {
+  width: 295.73px;
+  height: 207.72px;
+  margin-top: 98.21px;
+  margin-left: 62.31px;
+}

@@ -1,0 +1,26 @@
+@import "reset";
+@import "vareables";
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper{
+  max-width: 1626px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
+
+@import "navigation";
+@import "open_section";
+@import "popular_section";
+@import "benefits_section";
